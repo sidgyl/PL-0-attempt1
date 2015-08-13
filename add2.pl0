@@ -1,0 +1,11 @@
+var
+  k;
+
+begin
+  k:=in;
+  while k>0 do
+  begin
+    out:=in+in;
+    k:=k-1
+  end
+end.

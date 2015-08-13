@@ -1,0 +1,17 @@
+  var
+       x,y;
+     
+     begin
+       x:=in;
+       while x#-999999 do
+       begin
+         y:=in;
+        if y#-999999 then
+        begin
+	       out:=x+y;
+	       x:=in
+        end;
+        if y=-999999 then
+	       x:=-999999
+      end
+    end.

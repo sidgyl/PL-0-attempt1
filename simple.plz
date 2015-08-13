@@ -1,0 +1,13 @@
+const
+  a=44;
+  b=55;
+
+var
+  x;
+
+begin
+x:=11+22;
+x:=110*220;
+x:=a+b;
+x:=a*b
+end.

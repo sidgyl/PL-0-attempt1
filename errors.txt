@@ -1,0 +1,88 @@
+O. The designated identifier has not been declared.
+ 1. The indicated identifier is declared more than once in the same scope.
+ 2. An identifier is expected.
+ 3. Every program must begin with the symbol program.
+ 4. A closing parenthesis is expected. 
+ 5. A colon is expected. In declarations, the colon is followed by a type.
+ 6. At this point, the indicated symbol is incorrectly used. The compiler skips this
+    and possibly several following symbols.
+ 7. In a formal parameter list each section must begin with an identifier or the
+    symbol var, depending on whether the parameter is a value or a variable parameter.
+ 8. The symbol of is expected.
+ 9. An opening parenthesis is expected.
+10. A type definition must begin with an identifier, the symbol array, or the
+    symbol record.
+11. An opening bracket is expected ([).
+12. A closing bracket is expected (]).
+13. The symbol .. is expected (no blank between the dots).
+14. A semicolon is expected.
+15. The result of a function must be of type integer, real, boolean, or char.
+16. An equal sign is expected. The symbol := is used in assignment statements
+    only, but not in declarations.
+17. The expression following the symbol if, while, or until must be of type boolean.
+18. The control variable following the symbol for must be of type integer, char, or
+    boolean.
+19. The expressions which specify the initial and final values of the control variable
+    in a for statement must be of the same type as the control variable.
+20. The parameter 'output' must be included in the program heading.
+21. The indicated number is too large. The maximum number of digits is 14; the
+    absolute value must not exceed 10**323 (on the CDC 6000 implementation).
+22. A dot is expected at the end of the program. Check corresponding begin and
+    end symbols!
+23. The expression following the symbol case must be of type integer, char, or
+    boolean. (In the latter case, an if statement is recommended.)
+24. The designated character is not acceptable.
+25. In a constant definition, the equal sign must be followed by a constant. If an
+    identifier is used, it must denote a constant.
+26. The type of an index expression must be identical to the index type specified
+    in the array declaration.
+27. In an array declaration, the lower bound must not exceed the upper bound.
+    They must be within a permissible range of values (less than 2** 17). Also,
+    their types must be identical, either integers, logical values, or characters. Real
+    numbers are not acceptable.
+28. Every indexed variable must be declared as an array.
+29. A type identifier is expected here.
+30. This type is not defined. (Recursive type definitions are not allowed.)
+31. Every variable with a field selector must be declared as a record.
+32. The operands of the operators not, and, and or must be of type boolean.
+33. The specified type of this arithmetic expression is illegal. Note also that entire
+    arrays cannot occur as operands to arithmetic or logical operators.
+34. Operands of div and mod must be of type integer.
+35. The types of the comparands are incompatible. They must be identical, except
+    if one comparand is of type integer and the other of type real. Arrays must be
+    compared element by element.
+36. The types of corresponding actual and formal parameters must be identical. An
+    exception is made if the formal parameter is a value parameter of type real.
+    Then the actual parameter may also be of type integer.
+37. A variable is expected.
+38. A string must contain at least one character.
+39. The number of actual parameters must be equal to the number of specified
+    formal parameters.
+40. The parameters of the procedure read must be of type char, integer, or real.
+41. The parameters of the procedure write must be of type char, integer, real, or
+    boolean.
+42. If a statement has the form write(x:m:n), then x must be an expression of type
+    real.
+43. If a statement has the form write(x:n) or write(x:m:n),then m and n must be
+    expressions of type integer.
+44. No type or procedure identifiers may occur as part of an expression.
+45. A statement cannot begin with a type or a function identifier. An exception is
+    the assignment of a result value to a function. In this case, it must be part of
+    the function body.
+46. In an assignment x := y, the types of the variable x and the expression y must
+    be identical. An exception is the case when x is real. Then y may also be of
+    type integer.
+47. Every case label must be a constant of the same type as the expression in the
+    case clause.
+48. The indicated argument of the standard function is of an illegal type.
+49. The program requires too much storage.
+50. A constant cannot begin with the indicated symbol.
+51. The symbol := is expected (no space between : and =).
+52. The symbol then is expected.
+53. The symbol until is expected.
+54. The symbol do is expected.
+55. The symbol to (or downto) is expected.
+56. The symbol begin is expected.
+57. The symbol end is expected.
+58. A factor must begin with an identifier, a constant, the symbol not, or with a
+    left parenthesis.
